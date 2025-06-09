@@ -1,14 +1,27 @@
 name: core_std
-description: A starting point for Dart libraries or applications.
+description: >-
+  Utility APIs for Dart to simplify asynchronous programming, error handling,
+  value mapping, and resource cleanup. Includes wrappers and extensions for
+  common async patterns, making your code more robust and expressive.
 version: 1.0.0
 repository: https://github.com/Cybernetics354/core_std
+homepage: https://github.com/Cybernetics354/core_std
+issue_tracker: https://github.com/Cybernetics354/core_std/issues
+documentation: https://pub.dev/documentation/core_std/latest/
 
 environment:
   sdk: ^3.7.2
 
+topics: 
+  - async
+  - error-handling
+  - resource-management
+  - dart-utilities
+  - dart-extensions
+
 # Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
+  # No external dependencies
 
 dev_dependencies:
   lints: ^5.0.0
