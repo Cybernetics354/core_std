@@ -26,3 +26,18 @@ dependencies:
 dev_dependencies:
   lints: ^5.0.0
   test: ^1.24.0
+
+# Include files for publishing
+publish_to: 'https://pub.dev'
+
+# Exclude files/folders from the published package
+# (optional, but recommended for Dart packages)
+# See: https://dart.dev/tools/pub/pubignore
+# .pubignore file is preferred, but you can use this as a reference:
+# 
+# files:
+#   - lib/
+#   - README.md
+#   - LICENSE
+#   - CHANGELOG.md
+#   - example/
